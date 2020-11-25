@@ -25,6 +25,13 @@
             >LinkedIn</a
           >
         </li>
+        <li>
+          <a
+            href="https://www.imdb.com/name/nm2417110/"
+            target="_blank"
+            >IMDB</a
+          >
+        </li>
       </nav>
     </header>
 

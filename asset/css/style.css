@@ -596,7 +596,7 @@ footer h1 {
 /* flex */
 .flex {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
 }
 /* containerCategorie */
@@ -612,5 +612,12 @@ footer h1 {
 /* title job */
 .titleJob {
   text-align: center;
+  margin: 2rem 0;
+}
+/* developpeur web website */
+.webSite {
+  width: 500px;
+}
+.sepProject {
   margin: 2rem 0;
 }
