@@ -540,6 +540,7 @@ footer h1 {
 
 .card-image > img {
   display: block;
+  height: 350px;
   width: 100%;
   opacity: 0; /* visually hide the img element */
 }
@@ -561,6 +562,7 @@ footer h1 {
 }
 
 .card {
+  height: 450px;
   display: inline-block;
   width: 90%;
   max-width: 20rem;
