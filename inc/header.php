@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/style.css" />
     <title>Document</title>
   </head>
@@ -32,6 +34,13 @@
             >IMDB</a
           >
         </li>
+        <li>
+          <a
+            href="./asset/img/jcmairot-webdev-261120.pdf"
+            target="_blank"
+            >JC Mairot</a
+          >
+        </li>
       </nav>
     </header>
 
@@ -43,7 +52,7 @@
           <div class="legend"></div>
           <div class="content">
             <div class="content-txt">
-              <h1>JEAN CHRISTOPHE MAIROT</h1>
+              <h1>JE SUIS</h1>
               <h2>
                 Innovant et proactif, capable de m'adapter et de me former
                 rapidement. Ma formation est essentiellement personnelle.
@@ -78,7 +87,7 @@
             <div class="content-txt">
               <h1>DEVELOPPEUR WEB</h1>
               <h2>
-                Mes qualités pour ce nouveau virage professionnel sont : <br />
+                Qualités professionnelles: <br />
                 Le sens de la logique, la prise de recul, <br />
                 L’écoute & l’empathie <br />
                 La soif d’apprendre & L’autonomie
