@@ -1,0 +1,103 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainHead {
+  background-color: rgb(237, 237, 237);
+  color: rgb(186, 22, 29);
+  box-shadow: 5px #333;
+}
+
+.mainFooter {
+  background-color: black;
+  min-height: 150px;
+  padding-bottom: 10px;
+}
+
+.myFooter i {
+  font-size: 3rem;
+  color: white;
+  margin: 5px;
+}
+
+.myFooter h6 {
+  margin: 10px;
+}
+
+.fa-twitter {
+  color: rgb(0, 172, 238);
+  width: 2, 5%;
+  height: 45px;
+  background-color: rgb(0, 172, 238);
+}
+
+.fa-facebook-square {
+  color: rgb(0, 172, 238);
+  width: 2, 5%;
+  height: 45px;
+  background-color: rgb(59, 89, 152);
+}
+
+.fa-youtube {
+  color: rgb(0, 172, 238);
+  width: 2, 5%;
+  height: 45px;
+  background-color: rgb(196, 48, 43);
+}
+
+.zakNav {
+  min-height: 10px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.title-distripizz {
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+.distripizz-copyright {
+  font-size: smaller;
+  text-align: center;
+  color: rgb(253, 251, 251);
+}
+
+.title-distripizz a {
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  color: rgb(186, 22, 29);
+  margin: 0;
+}
+
+.zakbouton {
+  margin: 0 10px;
+}
+
+.test {
+  border: 2px red solid;
+}
+
+.elem2 {
+  display: flex;
+}
+
+.tel {
+  background: red;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.tel:hover {
+  width: 150px;
+  border-radius: 20px;
+}
