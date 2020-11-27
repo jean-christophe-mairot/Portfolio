@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/style.css" />
-    <title>Document</title>
+    <title>Portfolio | JCMairot</title>
   </head>
   <body>
     <!-- Fork me on GitHub ribbon -->

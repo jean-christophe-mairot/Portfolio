@@ -49,7 +49,7 @@ nav h1 {
 }
 nav li {
   width: auto;
-  margin-left: 30px;
+  margin-left: 1rem;
   float: right;
 }
 nav li a {
@@ -159,7 +159,7 @@ nav select:focus {
 .content-txt h2 {
   font-family: "El Messiri", sans-serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
   color: #fff;
   text-align: left;
@@ -475,6 +475,11 @@ nav select:focus {
   padding: 20px 0;
   margin: 0px auto;
 }
+@media (max-width: 510px) {
+  .container {
+    width: 100%;
+  }
+}
 .container h1 {
   font-family: Arial;
   font-size: 24px;
@@ -539,7 +544,7 @@ footer h1 {
 
 .card-image > img {
   display: block;
-  height: 350px;
+  height: 400px;
   width: 100%;
   opacity: 0; /* cache img element */
 }
@@ -561,7 +566,7 @@ footer h1 {
 }
 
 .card {
-  height: 450px;
+  height: 500px;
   display: inline-block;
   width: 90%;
   max-width: 20rem;
@@ -610,7 +615,8 @@ footer h1 {
 /* title job */
 .titleJob {
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 2rem;
+  font-size: 2.5rem;
 }
 /* developpeur web website */
 .webSite {
@@ -631,7 +637,52 @@ footer h1 {
 .detailGraph h4 {
   margin: 1rem 0;
 }
+.detailWeb {
+  width: 450px;
+  padding: 1rem;
+}
 .detailTxt {
   font-weight: 300;
   font-style: italic;
+}
+/* ico fontawesom */
+.logoWeb {
+  font-size: 2.5rem;
+  text-align: center;
+  animation: logoWeb 8s infinite;
+}
+@keyframes logoWeb {
+  0%,
+  100% {
+    color: black;
+  }
+  50% {
+    color: rgba(42, 86, 168, 0.6);
+  }
+}
+/* projectTxt */
+.projectTxt {
+  margin-top: 5rem;
+}
+.projectTxt h3 {
+  text-align: center;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  color: #eee;
+}
+.projectTxt h4 {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  color: #eee;
+}
+
+.projectTxt a i {
+  font-size: 4rem;
+  color: #eee;
+  margin: 0 0 10px 10px;
+}
+
+.fondDark {
+  background-color: rgba(10, 6, 6, 0.842);
 }
