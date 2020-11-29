@@ -19,7 +19,7 @@
     /></a>
     <!-- Header -->
     <header>
-      <nav>
+      <nav >
         <li>
           <a
             href="https://www.linkedin.com/in/mairot-jc-vfx-web/"
@@ -116,7 +116,7 @@
           </div>
         </div>
       </div>
-      <div class="switch">
+      <!-- <div class="switch">
         <ul>
           <li>
             <div class="on"></div>
@@ -125,6 +125,6 @@
           <li></li>
           <li></li>
         </ul>
-      </div>
+      </div> -->
     </div>
     <!-- cards -->
